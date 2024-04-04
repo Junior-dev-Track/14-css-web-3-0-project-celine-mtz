@@ -5,6 +5,7 @@ html {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 26px;
+  padding: 56px 0 130px 0;
 }
 
 .container {
@@ -17,8 +18,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 56px 0;
-  
+  padding-bottom: 56px;
 }
 
 .header-right ul {
@@ -44,7 +44,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 
+  height: 511px;
 }
 
 /* Up */
@@ -68,7 +68,6 @@ header {
   line-height: 1em;
   grid-column: 1/2;
   grid-row: 2/3;
-  justify-self: center;
 }
 
 .main-content {
@@ -79,7 +78,7 @@ header {
   width: 350px;
   height: 181px;
   justify-content: space-between;
-  align-self: center;
+  align-self: end;
 }
 
 .main-content p {
@@ -129,4 +128,53 @@ article {
 .article-item:nth-child(3) {
   border-top: 1px solid rgba(94, 96, 122, 1);
   border-bottom: 1px solid rgba(94, 96, 122, 1);
+}
+
+/***** Popular section *****/
+.popular {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  height: 129px;
+  margin-top: 71px;
+}
+
+.popular-parent {
+  display: grid;
+  grid-template-columns: 1fr 2.26fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.popular-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.popular-child img {
+  width: 100px;
+  height: 127px;
+}
+
+.popular-child h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #C5C6CE;
+}
+
+.popular-child h2 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #00001A;
+  margin: 12px 0 9px 0;
+}
+
+.popular-child p {
+  color: #5E607A;
+}
+
+.popular-child h1,
+.popular-child p {
+ margin-top: 0;
 }
