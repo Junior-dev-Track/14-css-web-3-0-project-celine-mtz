@@ -87,6 +87,10 @@
     grid-row: 3/4;
   }
 
+  .main-content a:active {
+    background-color: rgb(236, 66, 51);
+  }
+
   /***** Right section (now down) *****/
   .article {
     grid-row: 2/3;
@@ -94,11 +98,11 @@
     height: 489px;
   }
 
-  .article h2 {
+  .article h1 {
     font-size: 32px;
   }
 
-  .article h3 {
+  .article h2 {
     font-size: 20px;
   }
 

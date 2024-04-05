@@ -11,17 +11,17 @@
 <body>
     <header class="container">
         <div class="header-left">
-            <img src="images/logo.svg" alt="logo W.">
+            <a href="#home"><img src="images/logo.svg" alt="logo W."></a>
         </div>
 
         <nav class="header-right">
             <button id="hamburger">&#9776;</button>
             <ul id="nav-link">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">New</a></li>
-                <li><a href="#">Popular</a></li>
-                <li><a href="#">Trending</a></li>
-                <li><a href="#">Categories</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#categories">Categories</a></li>
             </ul>
         </nav>
     </header>
@@ -43,58 +43,64 @@
         </section>
 
         <section class="article">
-            <h2>New</h2>
+            <h1>New</h1>
 
             <article class="article-item">
-                <h3>Hydrogen VS Electric Cars</h3>
+                <h2><a href="#">Hydrogen VS Electric Cars</a></h2>
                 <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
             </article>
 
             <article class="article-item">
-                <h3>The Downsides of AI Artistry</h3>
+                <h2><a href="#">The Downsides of AI Artistry</a></h2>
                 <p>What are the possible adverse effects of on-demand AI image generation?</p>
             </article>
 
             <article class="article-item">
-                <h3>Is VC Funding Drying Up?</h3>
+                <h2><a href="#">Is VC Funding Drying Up?</a></h2>
                 <p>Private funding by VC firms is down 50% YOY. We take a look at what that means. </p>
             </article>
         </section>
     </main>
 
     <section class="container popular">
-        <article class="popular-parent">
-            <div class="popular-child">
-                <img src="images/Popular_1.svg" alt="image 1">
-            </div>
-            <div class="popular-child">
-                <h1>01</h1>
-                <h2>Reviving Retro PCs</h2>
-                <p>What happens when old PCs are given modern upgrades?</p>
-            </div>
-        </article>
+        <a href="#">
+            <article class="popular-parent">
+                <div class="popular-child">
+                    <img src="images/Popular_1.svg" alt="image 1">
+                </div>
+                <div class="popular-child">
+                    <p class="number">01</p>
+                    <h1>Reviving Retro PCs</h1>
+                    <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </article>
+        </a>
 
-        <article class="popular-parent">
-            <div class="popular-child">
-                <img src="images/Popular_2.svg" alt="image 1">
-            </div>
-            <div class="popular-child">
-                <h1>02</h1>
-                <h2>Top 10 Laptops of 2022</h2>
-                <p>Our best picks for various needs and budgets.</p>
-            </div>
-        </article>
+        <a href="#">
+            <article class="popular-parent">
+                <div class="popular-child">
+                    <img src="images/Popular_2.svg" alt="image 1">
+                </div>
+                <div class="popular-child">
+                    <p class="number">02</p>
+                    <h1>Top 10 Laptops of 2022</h1>
+                    <p>Our best picks for various needs and budgets.</p>
+                </div>
+            </article>
+        </a>
 
-        <article class="popular-parent">
-            <div class="popular-child">
-                <img src="images/Popular_3.svg" alt="image 1">
-            </div>
-            <div class="popular-child">
-                <h1>03</h1>
-                <h2>The Growth of Gaming</h2>
-                <p>How the pandemic has sparked fresh opportunities.</p>
-            </div>
-        </article>
+        <a href="#">
+            <article class="popular-parent">
+                <div class="popular-child">
+                    <img src="images/Popular_3.svg" alt="image 1">
+                </div>
+                <div class="popular-child">
+                    <p class="number">03</p>
+                    <h1>The Growth of Gaming</h1>
+                    <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </article>
+        </a>
     </section>
 </body>
 </html>

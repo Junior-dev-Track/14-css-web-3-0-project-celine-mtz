@@ -34,6 +34,10 @@ header {
   color: rgba(94, 96, 122, 1);
 }
 
+.header-right ul a:hover {
+  text-decoration: underline;
+}
+
 /********** Main container **********/
 .container:nth-child(2) {
   display: grid;
@@ -99,6 +103,10 @@ header {
   align-self: flex-start;
 }
 
+.main-content a:hover {
+  background-color: rgb(236, 66, 51);
+}
+
 /***** Right section *****/
 .article {
   background-color: #00001A;
@@ -107,18 +115,26 @@ header {
   padding: 0 24px;
 }
 
-.article h2 {
+.article h1 {
   font-size: 40px;
   font-weight: 700;
   color: #E9AA52;
   margin: 24px 0;
 }
 
-.article h3 {
+.article h2 {
   font-size: 20px;
   font-weight: 800;
   color: #FFFDFA;
   margin: 32px 0 8px 0;
+}
+
+.article a {
+  text-decoration: none;  
+}
+
+.article a:hover {
+  text-decoration: underline;
 }
 
 .article p {
@@ -140,6 +156,10 @@ header {
   margin-top: 71px;
 }
 
+.popular a {
+  text-decoration: none;
+}
+
 .popular-parent {
   display: grid;
   grid-template-columns: 1fr 2.26fr;
@@ -158,17 +178,21 @@ header {
   height: 127px;
 }
 
-.popular-child h1 {
+.popular-child p.number {
   font-size: 32px;
   font-weight: 700;
   color: #C5C6CE;
 }
 
-.popular-child h2 {
+.popular-child h1 {
   font-size: 18px;
   font-weight: 800;
   color: #00001A;
   margin: 12px 0 9px 0;
+}
+
+.popular-child h1:hover {
+  text-decoration: underline;
 }
 
 .popular-child p {
