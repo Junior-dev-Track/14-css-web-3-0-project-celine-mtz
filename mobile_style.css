@@ -88,11 +88,10 @@
   }
 
   /***** Right section (now down) *****/
-  article {
+  .article {
     grid-row: 2/3;
     width: 343px;
     height: 489px;
-    /* margin: 64px 0; */
   }
 
   .article h2 {

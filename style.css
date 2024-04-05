@@ -59,8 +59,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* TODO */
-  /* object-position: center; */
+  object-position: top;
 }
 
 /* Down */
@@ -101,7 +100,7 @@ header {
 }
 
 /***** Right section *****/
-article {
+.article {
   background-color: #00001A;
   width: 350px;
   height: 511px;
@@ -112,7 +111,6 @@ article {
   font-size: 40px;
   font-weight: 700;
   color: #E9AA52;
-  /* -webkit-text-stroke: 1px #000000; */
   margin: 24px 0;
 }
 
